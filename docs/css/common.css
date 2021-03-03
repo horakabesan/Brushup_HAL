@@ -504,9 +504,11 @@ p {
     font-size: 1.2rem;
     color: #fff;
 }
+
 #school_m_left{
-    margin-left: 120px;
+    padding-left: 120px;
 }
+
 .School_introduction .School_introduction_info h2 span{
     font-size: 2.5rem;
 }
@@ -1189,7 +1191,7 @@ p {
     }
 
     #school_m_left{
-        margin-left: 0;
+        padding-left: 0;
     }
 
     .School_introduction .School_introduction_info h2 span{
@@ -1303,20 +1305,29 @@ p {
         display: none;
     }
 
+    .footer_Alliance div{
+        width: 200px;
+        padding: 20px 20px 20px 20px;
+    }
+
     /* フッターナビ */
+
     .footer_nav ul{
         background-color: #aaa;
-        padding: 20px auto;
+        padding: 10px auto;
     }
+    
     .footer_nav ul li{
-        padding: 20px 5px 10px 5px;
+        padding: 20px 2px 10px 2px;
     }
-    .footer_nav ul li a img:hover{
-        opacity: 0.8;
+
+    .footer_nav ul li a img{
+        width: 40px;
     }
+
     .footer_nav ul li a p{
         padding: 10px;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
 
@@ -1332,13 +1343,17 @@ p {
     }
 
     .Inquiry .Inquiry_Consult p{
-        font-size: 0.9rem;
-        line-height: 1.5rem;
+        font-size: 0.6rem;
+        line-height: 1.0rem;
         padding: 5px 0 5px;
     }
 
     .Inquiry .Inquiry_Consult p #tel{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+    }
+
+    .Inquiry .Inquiry_Consult p #tel_day{
+        font-size: 0.6rem;
     }
 
     .Inquiry_address{
@@ -1347,21 +1362,29 @@ p {
         padding-left: 20px;
         border-left: 1px solid #fff;
     }
+
     .Inquiry_address p{
-        font-size: 0.9rem;
-        line-height: 1.5rem;
+        font-size: 0.6rem;
+        line-height: 1.0rem;
     }
+
     .Inquiry_address nav{
-        width: 90%;
+        width: 100%;
         display: flex;
-        padding-top: 20px;
+        padding-top: 10px;
     }
+
+    .Inquiry_address nav p{
+        font-size: 0.6rem;
+    }
+
     .Inquiry_address nav a{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
         color: #fff;
         text-decoration: none;
-        padding-top: 5px;
+        padding-top: 2px;
     }
+
     #tokyo{
         padding-right: 10px;
         border-right: 1px solid #fff;
@@ -1383,7 +1406,7 @@ p {
     .coryright{
         width: 70%;
         margin: 10px auto;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
 
