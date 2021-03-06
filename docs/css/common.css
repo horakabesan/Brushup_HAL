@@ -905,8 +905,7 @@ p {
     }
 
     .heading img{
-        color: #fff;
-        width: 20px;
+        display: none;
     }
 
     .heading h1{
